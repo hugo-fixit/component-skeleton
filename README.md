@@ -14,12 +14,42 @@ TODO demo here if needed
 
 The installation method is the same as [installing a theme](https://fixit.lruihao.cn/documentation/installation/). There are several ways to install, choose one, for example, install through Hugo Modules:
 
-```diff
+### Install as Hugo Module
+
+First make sure that your project itself is a [Hugo module](https://gohugo.io/hugo-modules/use-modules/#initialize-a-new-module).
+
+Then add this theme component to your `hugo.toml` configuration file:
+
+```toml
 [module]
   [[module.imports]]
     path = "github.com/hugo-fixit/FixIt"
-+ [[module.imports]]
-+   path = "github.com/hugo-fixit/{component-xxx}"
+  [[module.imports]]
+    path = "github.com/hugo-fixit/{component-xxx}"
+```
+
+On the first start of Hugo it will download the required files.
+
+To update to the latest version of the module run:
+
+```bash
+hugo mod get -u
+hugo mod tidy
+```
+
+### Install as Git Submodule
+
+Clone [FixIt](https://github.com/hugo-fixit) and this git repository into your theme folder and add it as submodules of your website directory.
+
+```bash
+git submodule add https://github.com/hugo-fixit/FixIt.git themes/FixIt
+git submodule add https://github.com/hugo-fixit/{component-xxx}.git themes/{component-xxx}
+```
+
+Next edit `hugo.toml` of your project and add this theme component to your themes:
+
+```toml
+theme = ["FixIt", "{component-xxx}"]
 ```
 
 ## Configuration
