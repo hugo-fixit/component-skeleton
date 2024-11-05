@@ -1,5 +1,7 @@
 # {component-xxx}
 
+👉 English README | [简体中文说明](/README.zh-cn.md)
+
 TODO description here if needed
 
 ## Demo
@@ -8,7 +10,7 @@ TODO demo here if needed
 
 ## Requirements
 
-- FixIt v0.3.9 or later.
+- FixIt v0.3.12 or later.
 
 ## Install Component
 
@@ -54,17 +56,25 @@ theme = ["FixIt", "{component-xxx}"]
 
 ## Configuration
 
-TODO configuration here if needed
+In order to Inject the partial `{component-xxx}.html` into the `custom-assets` through the [custom block](https://fixit.lruihao.cn/references/blocks/) opened by the FixIt theme in the `layouts/partials/custom.html` file, you need to fill in the following necessary configurations:
 
-## Inject Partial
-
-Inject the `{component-xxx}.html` into the `custom-assets` through the custom block opened by the FixIt theme in the `layouts/partials/custom.html` file:
-
-```go-html-template
-{{- define "custom-assets" -}}
-  {{- partial "inject/{component-xxx}.html" . -}}
-{{- end -}}
+```toml
+[params]
+  [params.customPartials]
+    head = []
+    profile = []
+    aside = []
+    comment = []
+    footer = []
+    widgets = []
+    assets = [
+      "inject/{component-xxx}.html",
+    ]
+    postFooterBefore = []
+    postFooterAfter = []
 ```
+
+TODO configuration here if needed ...
 
 ## Use Shortcode
 
