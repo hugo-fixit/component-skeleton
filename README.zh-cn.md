@@ -14,7 +14,7 @@ TODO 如有需要，请在此处添加演示
 
 ## 安装组件
 
-安装方法与 [安装主题](https://fixit.lruihao.cn/zh-cn/documentation/installation/) 相同。有几种安装方式，请选择一种，例如，通过 Hugo 模块安装：
+安装方式与 [安装主题](https://fixit.lruihao.cn/zh-cn/documentation/installation/) 相同，有多种安装方式，任选一种即可，这里介绍两种主流方式。
 
 ### 作为 Hugo 模块安装
 
