@@ -1,8 +1,21 @@
-# {component-xxx} | FixIt
+<!-- markdownlint-disable-file MD033 MD041 -->
+<h1 align="center">{component-xxx} | FixIt</h1>
 
-👉 English README | [简体中文说明](/README.md)
+<!-- TODO feature image here if needed -->
 
-TODO description here if needed
+<div align="center" class="ignore">
+  <p><!-- TODO description here if needed --></p>
+  <a href="/README.md">简体中文</a> |
+  <a href="https://fixit.lruihao.cn/zh-cn/ecosystem/hugo-fixit/{component-xxx}/?lang=chinese_traditional">繁體中文</a> |
+  English |
+  <a href="https://fixit.lruihao.cn/ecosystem/hugo-fixit/{component-xxx}/?lang=french">Français</a> |
+  <a href="https://fixit.lruihao.cn/ecosystem/hugo-fixit/{component-xxx}/?lang=russian">Русский язык</a> |
+  <a href="https://fixit.lruihao.cn/ecosystem/hugo-fixit/{component-xxx}/?lang=spanish">Español</a> |
+  <a href="https://fixit.lruihao.cn/ecosystem/hugo-fixit/{component-xxx}/?lang=hindi">हिन्दी</a> |
+  <a href="https://fixit.lruihao.cn/ecosystem/hugo-fixit/{component-xxx}/?lang=german">deutsch</a> |
+  <a href="https://fixit.lruihao.cn/ecosystem/hugo-fixit/{component-xxx}/?lang=korean">한국어</a> |
+  <a href="https://fixit.lruihao.cn/ecosystem/hugo-fixit/{component-xxx}/?lang=japanese">しろうと</a>
+</div>
 
 ## Demo
 
