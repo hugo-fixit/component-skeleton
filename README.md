@@ -59,7 +59,7 @@ hugo mod tidy
 
 ### 作为 Git 子模块安装
 
-将 [FixIt](https://github.com/hugo-fixit) 和此 git 存储库克隆到你的主题文件夹中，并将其作为网站目录的子模块添加。
+将 [FixIt](https://github.com/hugo-fixit/FixIt) 和此 git 存储库克隆到你的主题文件夹中，并将其作为网站目录的子模块添加。
 
 ```bash
 git submodule add https://github.com/hugo-fixit/FixIt.git themes/FixIt
@@ -79,6 +79,7 @@ theme = ["FixIt", "{component-xxx}"]
 ```toml
 [params]
   [params.customPartials]
+    # ... other partials
     head = []
     profile = []
     aside = []
@@ -90,6 +91,7 @@ theme = ["FixIt", "{component-xxx}"]
     ]
     postFooterBefore = []
     postFooterAfter = []
+    # ... other partials
 ```
 
 TODO 如有需要，请在此处添加配置...

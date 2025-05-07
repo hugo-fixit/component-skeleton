@@ -59,7 +59,7 @@ hugo mod tidy
 
 ### Install as Git Submodule
 
-Clone [FixIt](https://github.com/hugo-fixit) and this git repository into your theme folder and add it as submodules of your website directory.
+Clone [FixIt](https://github.com/hugo-fixit/FixIt) and this git repository into your theme folder and add it as submodules of your website directory.
 
 ```bash
 git submodule add https://github.com/hugo-fixit/FixIt.git themes/FixIt
@@ -79,6 +79,7 @@ In order to Inject the partial `{component-xxx}.html` into the `custom-assets` t
 ```toml
 [params]
   [params.customPartials]
+    # ... other partials
     head = []
     profile = []
     aside = []
@@ -90,6 +91,7 @@ In order to Inject the partial `{component-xxx}.html` into the `custom-assets` t
     ]
     postFooterBefore = []
     postFooterAfter = []
+    # ... other partials
 ```
 
 TODO configuration here if needed ...
