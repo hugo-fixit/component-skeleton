@@ -28,7 +28,7 @@ TODO demo here if needed
 
 ## Requirements
 
-- FixIt v0.3.12 or later.
+- FixIt v0.4.0 or later.
 
 ## Install Component
 
@@ -74,7 +74,7 @@ theme = ["FixIt", "{component-xxx}"]
 
 ## Configuration
 
-In order to Inject the partial `{component-xxx}.html` into the `custom-assets` through the [custom block](https://fixit.lruihao.cn/references/blocks/) opened by the FixIt theme in the `layouts/partials/custom.html` file, you need to fill in the following necessary configurations:
+In order to Inject the partial `{component-xxx}.html` into the `custom-assets` through the [custom block](https://fixit.lruihao.cn/references/blocks/) opened by the FixIt theme in the `layouts/_partials/custom.html` file, you need to fill in the following necessary configurations:
 
 ```toml
 [params]
