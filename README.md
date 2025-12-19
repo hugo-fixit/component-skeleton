@@ -42,10 +42,12 @@ TODO 如有需要，请在此处添加演示
 
 ```toml
 [module]
-  [[module.imports]]
-    path = "github.com/hugo-fixit/FixIt"
-  [[module.imports]]
-    path = "github.com/hugo-fixit/{component-xxx}"
+
+[[module.imports]]
+path = "github.com/hugo-fixit/FixIt"
+
+[[module.imports]]
+path = "github.com/hugo-fixit/{component-xxx}"
 ```
 
 在 Hugo 的第一次启动时，它将下载所需的文件。
@@ -78,20 +80,21 @@ theme = ["FixIt", "{component-xxx}"]
 
 ```toml
 [params]
-  [params.customPartials]
-    # ... other partials
-    head = []
-    profile = []
-    aside = []
-    comment = []
-    footer = []
-    widgets = []
-    assets = [
-      "inject/{component-xxx}.html",
-    ]
-    postFooterBefore = []
-    postFooterAfter = []
-    # ... other partials
+
+[params.customPartials]
+# ... other partials
+head = []
+profile = []
+aside = []
+comment = []
+footer = []
+widgets = []
+assets = [
+  "inject/{component-xxx}.html",
+]
+postFooterBefore = []
+postFooterAfter = []
+# ... other partials
 ```
 
 TODO 如有需要，请在此处添加配置...
