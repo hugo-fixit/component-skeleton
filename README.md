@@ -76,7 +76,7 @@ theme = ["FixIt", "{component-xxx}"]
 
 ## 配置
 
-为了通过 FixIt 主题在 `layouts/_partials/custom.html` 文件中开放的 [自定义块](https://fixit.lruihao.cn/references/blocks/) 将 `{xxx}.fixit.html` 注入到 `custom-assets` 中，你需要填写以下必要配置：
+为了通过 FixIt 主题开放的 [自定义块](https://fixit.lruihao.cn/references/blocks/) 将 `{xxx}.fixit.html` 注入到 `custom-assets` 中，你需要填写以下必要配置：
 
 ```toml
 [params]
