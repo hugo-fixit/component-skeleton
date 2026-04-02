@@ -28,7 +28,7 @@ TODO demo here if needed
 
 ## Requirements
 
-- FixIt v0.4.0 or later.
+- FixIt v0.4.5 or later.
 
 ## Install Component
 
